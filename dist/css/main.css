@@ -127,7 +127,9 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(73, 73, 73, 0.5);
+    color: black;
+    font-weight: bold; }
 
 a {
   color: #fff;
@@ -185,11 +187,12 @@ main {
   grid-gap: 0.7rem; }
   .projects h2 {
     font-family: "Times New Roman", Times, serif;
-    margin: 10px; }
+    margin: 10px;
+    color: #e6d5d5; }
   .projects img {
     width: 300px;
     height: 300px;
-    border: 3px #fff solid; }
+    border: 3px #c9c2c2 solid; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
