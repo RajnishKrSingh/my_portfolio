@@ -183,8 +183,12 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem; }
+  .projects h2 {
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px; }
   .projects img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;

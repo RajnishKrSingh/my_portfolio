@@ -115,8 +115,13 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    margin: 10px;
+  }
   img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
     border: 3px #fff solid;
 
     &:hover {
