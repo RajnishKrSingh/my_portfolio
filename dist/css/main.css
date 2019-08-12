@@ -149,10 +149,10 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 1s ease-out; }
       main .icons a:hover {
-        color: #eb9320;
-        transition: all 1s ease-out; }
+        color: #eb9320; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -169,7 +169,8 @@ main {
     border-radius: 50%;
     border: #eb9320 3px solid; }
   .about-info .bio {
-    grid-area: bio; }
+    grid-area: bio;
+    font-size: 1.5rem; }
   .about-info .job1 {
     grid-area: job1; }
   .about-info .job2 {
@@ -190,8 +191,8 @@ main {
     margin: 10px;
     color: #e6d5d5; }
   .projects img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
     border: 3px #c9c2c2 solid;
     transition: all 1s; }
     .projects img:hover {
@@ -208,7 +209,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 2px #0e0d0d solid;
+    border: 3px #0e0d0d solid;
     padding: 1rem;
     margin-bottom: 3rem;
     transition: all 1s ease-out; }
