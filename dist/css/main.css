@@ -112,6 +112,8 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(77, 64, 64, 0.7); }
+  body #particles-js {
+    height: 100%; }
 
 h1,
 h2,

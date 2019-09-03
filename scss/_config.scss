@@ -25,6 +25,9 @@ $background-opacity: 0.7;
         background: rgba($primary-color, $background-opacity);
       }
     }
+    #particles-js {
+      height: 100%;
+    }
   }
 }
 
